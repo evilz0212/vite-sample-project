@@ -1,0 +1,4 @@
+:root
+    @each $name, $color in $colors
+        --#{$name}-rgb: #{toRGB($color)}
+        --#{$name}: rgb(var(--#{$name}-rgb))

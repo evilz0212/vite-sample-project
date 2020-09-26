@@ -1,3 +1,5 @@
+import "/@/styles/index.sass";
+
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./index.css";

@@ -1,0 +1,21 @@
+// 簡寫轉換
+@function sw($char) {
+    // 個人化簡寫碼表
+    $Shorthand: (
+        // 方向
+        "l": left,
+        "r": right,
+        "c": center,
+        // 排版
+        "col": column,
+        // flex
+        "fs": flex-start,
+        "fe": flex-end
+    );
+    $ori: map-get($Shorthand, $char);
+    @if ($ori) {
+        @return $ori;
+    } @else {
+        @return $char;
+    }
+}
