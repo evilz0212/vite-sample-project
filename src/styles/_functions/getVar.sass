@@ -2,5 +2,4 @@
 @function color($val, $opacity: null)
     @if ($opacity)
         @return rgba(var(--#{$val}-rgb), $opacity)
-    @else
-        @return var(--#{$val})
+    @return var(--#{$val})
