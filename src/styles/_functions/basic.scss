@@ -19,3 +19,8 @@
         @return $char;
     }
 }
+
+// 色票轉換 HEX to RGB
+@function toRGB($hex) {
+    @return red($hex), green($hex), blue($hex);
+}

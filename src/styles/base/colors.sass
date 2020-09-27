@@ -1,4 +1,6 @@
 :root
+    // 轉換為rgb，兩種模式可連動(加透明度rgba用 -> 直接使用)
+    // 0,0,0 -> rgb(0,0,0)
     @each $name, $color in $colors
         --#{$name}-rgb: #{toRGB($color)}
         --#{$name}: rgb(var(--#{$name}-rgb))

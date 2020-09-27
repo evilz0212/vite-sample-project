@@ -1,0 +1,6 @@
+// 取得色票 --var
+@function color($val, $opacity: null)
+    @if ($opacity)
+        @return rgba(var(--#{$val}-rgb), $opacity)
+    @else
+        @return var(--#{$val})

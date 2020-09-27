@@ -1,14 +1,8 @@
 $colors: (
     "red": #ff5353,
 );
-@function toRGB($hex) {
-    @return red($hex), green($hex), blue($hex);
-}
 
-@function color($val, $opacity: null) {
-    @if ($opacity) {
-        @return rgba(var(--#{$val}-rgb), $opacity);
-    } @else {
-        @return var(--#{$val});
-    }
-}
+// TODO: +Variables
+// RWD: xl, lg, md, sm, xs (--var? setting @media in base)
+// type: font, btn, card,
+// val: color, background, size, linehight, padding, margin, z-index, border, shadow,
