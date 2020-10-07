@@ -10,16 +10,4 @@ router-link(to="/contact", custom, v-slot="{ navigate }")
 </script>
 
 <style lang="sass">
-#app
-    font-family: Avenir, Helvetica, Arial, sans-serif
-    -webkit-font-smoothing: antialiased
-    -moz-osx-font-smoothing: grayscale
-    text-align: center
-    color: #2c3e50
-    margin-top: 60px
-button
-    background-color: #ffffff
-    border: 1px solid #aaa
-    border-radius: 5px
-    padding: 5px 10px
 </style>
