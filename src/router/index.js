@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from "vue-router";
-import home from "/@/pages/home.vue";
-import contact from "/@/pages/contact.vue";
+import { createRouter, createWebHistory } from "vue-router"
+import home from "/@/pages/home.vue"
+import contact from "/@/pages/contact.vue"
 
-const router = createRouter({
+export const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
@@ -20,5 +20,4 @@ const router = createRouter({
             // ],
         },
     ],
-});
-export default router;
+})
