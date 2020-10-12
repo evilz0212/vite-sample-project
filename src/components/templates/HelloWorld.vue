@@ -12,3 +12,5 @@ export const name = "HelloWorld";
 export const msg = props.msg;
 export const count = ref(0);
 </script>
+<style lang="sass" scoped>
+</style>

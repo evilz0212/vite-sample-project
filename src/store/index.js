@@ -1,19 +1,21 @@
-import { createStore } from "vuex";
+import { createStore } from "vuex"
 
-import countNumber from "./modules/count-number";
+import user from "./modules/user"
+import countNumber from "./modules/count-number"
 
 const Store = createStore({
     modules: {
+        user,
         countNumber,
     },
     state() {
-        return {};
+        return {}
     },
     mutations: {},
     actions: {},
     getters: {},
-});
+})
 
 export function useStore() {
-    return Store;
+    return Store
 }
