@@ -18,7 +18,6 @@
 
 <script setup="props">
 import { ref, inject } from "vue";
-import { useStore } from "/@/store";
 const store = inject("store");
 
 export const username = ref("");
