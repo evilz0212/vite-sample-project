@@ -8,9 +8,8 @@ button(@click="multCount(2)") multCount
 </template>
 
 <script setup>
-import { computed } from "vue";
-import { useStore } from "/@/store";
-const store = useStore();
+import { inject, computed } from "vue";
+const store = inject("store");
 
 export const countNumber = computed(() => store.state.countNumber);
 export const powCount = computed(() => store.getters.getPowerCount);

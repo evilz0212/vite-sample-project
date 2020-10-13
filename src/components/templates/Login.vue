@@ -17,9 +17,9 @@
 </template>
 
 <script setup="props">
-import { ref } from "vue";
+import { ref, inject } from "vue";
 import { useStore } from "/@/store";
-const store = useStore();
+const store = inject("store");
 
 export const username = ref("");
 export const password = ref("");

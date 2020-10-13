@@ -3,10 +3,12 @@ img(alt="Vue logo", src="./assets/logo.png")
 router-view
 </template>
 
-<script>
-export default {
-    name: "App",
-};
+<script setup>
+import { provide } from "vue";
+import { useStore } from "/@/store";
+export const name = "App";
+
+provide("store", useStore());
 </script>
 <style lang="sass">
 // Demo Style
