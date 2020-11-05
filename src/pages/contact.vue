@@ -15,8 +15,8 @@ export const countNumber = computed(() => store.state.countNumber);
 export const powCount = computed(() => store.getters.getPowerCount);
 export const addCount = (addNumber) => store.commit("addCount", addNumber);
 export const multCount = (multNumber) =>
-    store.dispatch("multCount", multNumber);
+	store.dispatch("multCount", multNumber);
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
 </style>

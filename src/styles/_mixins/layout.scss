@@ -1,0 +1,11 @@
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+@mixin flex($justify: center, $align: center, $direction: row) {
+	display: flex;
+	justify-content: sortWord($justify);
+	align-items: sortWord($align);
+	flex-direction: sortWord($direction);
+}

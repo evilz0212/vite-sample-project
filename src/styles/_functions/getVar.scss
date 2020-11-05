@@ -1,0 +1,4 @@
+// 取得色票 HEX
+@function color($color, $opacity: 1) {
+	@return rgba(map-get($colors, $color), $opacity);
+}
