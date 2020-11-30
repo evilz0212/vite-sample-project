@@ -1,10 +1,9 @@
 <template lang="pug">
-h1 home
-HelloWorld(msg="Hello Vue 3.0 + Vite")
+h1 Home Page
 br
-//- router-link(to="/contact", custom, v-slot="{ navigate }") 
-//-     button(role="link", @click="navigate") to contact page
 Login
+//- router-link(to="/contact", custom, v-slot="{ navigate }") 
+//- 	button(role="link", @click="navigate") to contact page
 </template>
 
 <script setup>
