@@ -12,8 +12,8 @@
     <img src="https://img.shields.io/badge/axios-0.21.0-4494d3" alt="axios" />
 </p>
 <p align="center">
-    Source：<a href="https://github.com/evilz0212/vite-sample-project">Github</a>
-	Demo：<a href="https://evilz0212.github.io/vite-sample-project/">Git Pages</a>
+    Source：<a href="https://github.com/evilz0212/vite-sample-project">Github</a> ｜ 
+	Demo：<a href="https://evilz0212.github.io/vite-sample-project/">Git Pages</a> ｜ 
 	Design：<a href="https://www.figma.com/file/GNBkG9zZc3RFPzgmmebQNU/Vite-Sample-Project?node-id=0%3A1">Figma</a>
 <p>
 
