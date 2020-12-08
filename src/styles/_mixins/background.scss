@@ -1,0 +1,11 @@
+@mixin btn-linear($type: def) {
+	@if ($type == "def") {
+		background: linear-gradient(
+			110deg,
+			color(linear-black) -25%,
+			color(linear-gray) 130%
+		);
+	} @else if ($type == "Accent") {
+		background: linear-gradient(120deg, #8195e2 -15%, #4358be 100%);
+	}
+}

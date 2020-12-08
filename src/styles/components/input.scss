@@ -1,0 +1,23 @@
+input {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 12px 20px;
+
+	border: 0px;
+	border-radius: 12px;
+	&:focus {
+		outline: none;
+	}
+
+	&[placeholder],
+	&[type="password"] {
+		color: color(basic-white, 0.8);
+	}
+	&::placeholder {
+		color: color(basic-white, 0.2);
+	}
+
+	background-color: color(basic-black);
+	@include input-shadow;
+}

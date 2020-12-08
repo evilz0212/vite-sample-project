@@ -8,7 +8,7 @@ export const state = {
 // action
 export const actions = {
 	saveCoinList({ state, commit }, data) {
-		const q_time = new Date().toLocaleString()
+		const q_time = new Date().toLocaleString("eu")
 		commit("setTime", q_time)
 		commit("setCoin", data)
 	},

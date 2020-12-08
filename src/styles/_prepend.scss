@@ -4,4 +4,10 @@
 @import "_functions/basic";
 @import "_functions/getVar";
 
-@import "_mixins/layout";
+@import "_mixins/positioning";
+@import "_mixins/boxModel";
+@import "_mixins/text";
+
+@import "_mixins/border";
+@import "_mixins/shadow";
+@import "_mixins/background";

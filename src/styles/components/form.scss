@@ -1,0 +1,8 @@
+form {
+	@include flex(fs, st, col);
+}
+label {
+	font-size: 14px;
+	line-height: 2;
+	color: color(basic-white, 0.9);
+}

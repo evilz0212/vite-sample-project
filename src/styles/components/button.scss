@@ -9,3 +9,27 @@
 
 // status: hover, active, checked, disabled
 // content: icon
+
+.btn-group {
+	height: 100%;
+	@include flex(fe, st, col);
+}
+
+button {
+	padding: 10px;
+	border: 0px;
+	border-radius: 50px;
+	@include flex();
+
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: color(basic-white, 0.85);
+	@include btn-linear();
+
+	@include btn-shadow;
+
+	&:hover {
+		cursor: pointer;
+		filter: brightness(1.08);
+	}
+}

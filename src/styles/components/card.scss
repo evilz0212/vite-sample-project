@@ -1,0 +1,8 @@
+.card {
+	@include size(340px, 600px);
+	@include flex(fs, st, col);
+	padding: 25px 25px;
+	border-radius: 45px;
+
+	@include card-shadow;
+}
