@@ -3,7 +3,7 @@ section.card
 	.user
 		p {{ username }}
 		button.logout(@click="logout")
-			img(alt="Bitcoin", src="/@/assets/icons/setting.svg")
+			img(alt="Logout", src="/@/assets/icons/setting.svg")
 	.title
 		h2 Cryptocurrency
 		h3 CoinGecko
