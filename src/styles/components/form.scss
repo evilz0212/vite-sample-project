@@ -1,5 +1,6 @@
 form {
 	@include flex(fs, st, col);
+	flex: 1 1;
 }
 label {
 	font-size: 14px;
