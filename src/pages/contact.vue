@@ -17,7 +17,7 @@ section.card
 				th.change 24h
 			tr.bar-i(v-for="(item, key, index) in coinlist")
 				td.coin 
-					img(:alt="key", :src="`/coins/${key}.svg`")
+					img(:alt="key", :src="`${projectName}/coins/${key}.svg`")
 					span {{ key }}
 				td.price {{ item.usd.toFixed(2) }}
 				td.change {{ item.usd_24h_change.toFixed(1) }}%
@@ -41,6 +41,8 @@ export const username = computed(() => store.state.user.name);
 export const coinRefresh = services.coin.coinRefresh;
 export const coinlist = computed(() => store.state.coin.coinList);
 export const searchTime = computed(() => store.state.coin.time);
+
+export const projectName = import.meta.env.VITE_PROJECT_NAME;
 
 onMounted(() => {
 	coinRefresh();

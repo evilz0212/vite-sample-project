@@ -1,5 +1,5 @@
 # 打包
-vite build
+NODE_ENV=production vite build
 
 # 新增至暫存分支 (強制加入dist資料夾)
 git checkout -b temp

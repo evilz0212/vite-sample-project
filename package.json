@@ -2,8 +2,8 @@
 	"name": "vite-sample-project",
 	"version": "0.0.0",
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
+		"dev": "NODE_ENV=development vite",
+		"build": "NODE_ENV=production vite build",
 		"devtools": "vue-devtools",
 		"git-pages": "bash ./deploy.sh"
 	},
@@ -16,6 +16,8 @@
 	},
 	"devDependencies": {
 		"@vue/compiler-sfc": "^3.0.0",
+		"dotenv": "^8.2.0",
+		"fs": "0.0.1-security",
 		"pug": "^3.0.0",
 		"sass": "^1.26.11",
 		"vite": "^1.0.0-rc.4"

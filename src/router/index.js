@@ -5,7 +5,8 @@ import home from "/@/pages/home.vue"
 import contact from "/@/pages/contact.vue"
 
 export const router = createRouter({
-	history: createWebHistory(),
+	// 設定 baseURL
+	history: createWebHistory(import.meta.env.VITE_PROJECT_NAME),
 	routes: [
 		{
 			path: "/",
