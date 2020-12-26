@@ -21,6 +21,7 @@
 ![vite-sample-project](./public/preview.png)
 
 ## Overview
+> 呈現即時虛擬貨幣資訊 ( CoinGecko api ) 
 #### Target
 1. 建構新專案啟動時所需的基礎配置
    - vite 編譯打包
