@@ -4,8 +4,8 @@
 <!-- tag & links (Version\Lang\Package) -->
 <p align="center">
     <img src="https://img.shields.io/badge/vue-3.0.0-61af83" alt="vue" />
-    <img src="https://img.shields.io/badge/vuex-3.0.0-61af83" alt="vuex" />
-    <img src="https://img.shields.io/badge/vue--router-3.0.0-61af83" alt="vue-route" />
+    <img src="https://img.shields.io/badge/vuex-4.0.0--beta.4-61af83" alt="vuex" />
+    <img src="https://img.shields.io/badge/vue--router-4.0.0--beta.12-61af83" alt="vue-route" />
     <img src="https://img.shields.io/badge/vite-1.0.0--rc.4-61af83" alt="vite" />
     <img src="https://img.shields.io/badge/pug-3.0.0-684c00" alt="pug" />
     <img src="https://img.shields.io/badge/sass-1.26.11-ff69b4" alt="sass" />
